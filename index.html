@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+        <!-- Meta tag to define the character set for the document -->
+  <head>
+    <meta charset="UTF-8" />
+        <!-- Meta tag to make sure the page is rendered correctly on different browsers -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Meta tag for responsive design to adapt to various screen sizes -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Title of the page that appears on the browser tab -->
+
+
+    <title>weather app project</title>
+        
+    <!-- Link to the external stylesheet for the weather app's design -->
+
+    <link rel="stylesheet" href="style.css" />
+        
+    <!-- Link to the external JavaScript file, defer ensures the script is loaded after HTML -->
+
+    <script src="script.js" defer></script>
+    </head>
+    <body>
+          <!-- Main header of the weather dashboard -->
+
+      <h1>Weather Dashboard</h1>
+          <!-- Container for all weather-related elements -->
+
+      <div class="container">
+        <div class="weather-input">
+                    <!-- Weather input section where the user can enter a city name or use their current location -->
+
+            <h3>Enter a City Name:</h3>
+                    <!-- Input field for the user to type a city name -->
+
+            <input type="text" class="cityInput" placeholder="City Name">
+                    <!-- Button to trigger the search for the city -->
+
+            <button class="search">Search</button>
+                    <!-- Separator for visual distinction -->
+
+            <div class="saprator"></div>
+                    <!-- Button to use the current location instead of typing a city -->
+
+            <button class="locationbtn" >Use current location</button>
+        </div>
+              <!-- Section to display the current weather and the 5-day forecast -->
+
+        <div class="weather-data">
+                    <!-- Display current weather details -->
+
+            <div class="currunt-weather">
+                <div class="details">
+                    <h2>________ (__________)</h2>
+                    <h4>Temprature : ____°C</h4>
+                    <h4>wind speed : __M/S</h4>
+                    <h4>humidity : __%</h4>
+                </div>
+                
+            </div>
+                    <!-- Display a 5-day weather forecast -->
+
+            <div class="day-forecast">
+                <h2>5-Day Forecast</h2>
+                          <!-- List of weather forecast cards for each day -->
+
+                <ul class="weather-cards">
+                                <!-- Each card represents the weather information for a day -->
+
+                    <li class="card">
+                        <h2>(_________)</h2>
+                        
+                        <h4>Temprature : ____°C</h4>
+                        <h4>wind speed : __km/h</h4>
+                        <h4>humidity : ____%</h4>
+                        </li>
+                    <li class="card">
+                        <h2>(_________)</h2>
+                        
+                        <h4>Temprature : ____°C</h4>
+                        <h4>wind speed : __km/h</h4>
+                        <h4>humidity : ____%</h4>
+                        </li>
+                        <li class="card">
+                            <h2>(_________)</h2>
+                            
+                            <h4>Temprature : ____°C</h4>
+                            <h4>wind speed : __km/h</h4>
+                            <h4>humidity : ____%</h4>
+                            </li>
+                            <li class="card">
+                                <h2>(_________)</h2>
+                                
+                                <h4>Temprature : ____°C</h4>
+                                <h4>wind speed : __km/h</h4>
+                                <h4>humidity : ____%</h4>
+                                </li>
+                                <li class="card">
+                                    <h2>(_________)</h2>
+                                    
+                                    <h4>Temprature : ____°C</h4>
+                                    <h4>wind speed : __km/h</h4>
+                                    <h4>humidity : ____%</h4>
+                                    </li>
+                </ul>
+
+            </div>
+        </div>
+      </div>
+    </body>
+    </html>
