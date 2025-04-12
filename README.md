@@ -4,9 +4,6 @@ Weather application | HTML | CSS | JAVASCRIPT | OPEN WEATHER
 
 This is a simple web-based **Weather Dashboard** that allows users to search for the current weather and a 5-day forecast for any city or use their current location. It uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch weather data.
 
-## 🔧 Project Structure
-
-
 ## 🖥️ Features
 
 - 🌍 Search weather by city name
